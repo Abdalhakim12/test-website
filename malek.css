@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  height: fit-content;
+}
+
+header {
+  background: linear-gradient(90deg, #00695c, #26a69a);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+nav {
+  font-size: 16px;
+  margin-left: 0.1px;
+  font-weight: bold;
+  display: flex;
+  gap: 16px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.scholar-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.scholar-intro {
+  text-align: center;
+}
+
+.scholar-intro img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #2e7d32;
+}
+
+.scholar-intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+}
+
+.scholar-intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.scholar-details {
+  margin-top: 2rem;
+}
+
+.scholar-details h3 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.scholar-details ul {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.back-home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.back-home a {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #2e7d32;
+  color: #fff;
+  border-radius: 8px;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.back-home a:hover {
+  background: #1b5e20;
+}
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

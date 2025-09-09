@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  height: fit-content;
+}
+
+header {
+  background: linear-gradient(90deg, #00695c, #26a69a);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+nav {
+  font-size: 16px;
+  margin-left: 0.1px;
+  font-weight: bold;
+  display: flex;
+  gap: 16px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+aside {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+aside img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-right: 67px;
+}
+.img-right {
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #26a69a;
+}
+aside p {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  padding-left: 18px;
+  padding-right: 34px;
+}
+
+.tel {
+  text-align: center;
+  margin-top: 2rem;
+  height: 40px;
+  width: 40px;
+}
+.wha {
+  text-align: center;
+  margin-top: 2rem;
+  height: 40px;
+  width: 40px;
+}
+.face {
+  text-align: center;
+  margin-top: 2rem;
+  height: 40px;
+  width: 40px;
+}
+.linked {
+  text-align: center;
+  margin-top: 2rem;
+  height: 40px;
+  width: 40px;
+}
+.links {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.info {
+  margin-right: 20px;
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+  background-color: #26a69a;
+}
+.info h2 {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-right: 210px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.info p {
+  color: white;
+  font-size: 15px;
+  line-height: 2;
+}
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
